@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data (large files – add manually via Git LFS or DVC)
+data/*.csv
+data/*.parquet
+data/*.pkl
+data/*.zip
+
+# Models (serialized)
+models/*.pkl
+models/*.json
+models/*.bin
+
+# Reports / outputs
+reports/figures/*.png
+reports/figures/*.pdf
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
+*.tmp
+.cache/
